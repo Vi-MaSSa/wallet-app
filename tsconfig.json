@@ -1,0 +1,48 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    // "rootDir": "./src",
+    // "outDir": "./dist",
+
+    // Environment Settings
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "esnext",
+    // specify global @types packages (include react for JSX)
+    "types": ["vite/client", "react", "react-dom"],
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "resolveJsonModule": true,
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+
+    // Stricter Typechecking Options
+    "strict": false,
+    "strictNullChecks": false,
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
+
+    // Style Options
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFalltermsCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    // Recommended Options
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowJs": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}

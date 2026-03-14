@@ -1,20 +1,20 @@
 ﻿# DIO Wallet App (Frontend)
 
->  **Work in Progress**  este repositório contém apenas a parte frontend da aplicação; o backend ainda não está presente.
+> **Work in Progress** este repositório contém apenas a parte frontend da aplicação; o backend ainda não está presente.
 
-##  Visão Geral
+## Visão Geral
 
 Este projeto é uma interface de carteira digital (wallet) construída com React + Vite. Ele fornece telas de autenticação, validação de formulários, modo escuro e chamadas para uma API externa (que deve existir em um backend separado).
 
 ### Estrutura atual do repositório
 
--  `src/`  código da aplicação React (frontend)
--  `public/`  assets públicos (imagens, ícones)
--  Configuração de build com **Vite + Tailwind CSS + TypeScript**
+- `src/` código da aplicação React (frontend)
+- `public/` assets públicos (imagens, ícones)
+- Configuração de build com **Vite + Tailwind CSS + TypeScript**
 
->  Não há pasta `backend/` neste repositório. Caso você queira adicionar o backend ao mesmo repositório, a recomendação é criar uma pasta `/backend` e manter o frontend em `/frontend`.
+> Não há pasta `backend/` neste repositório. Caso você queira adicionar o backend ao mesmo repositório, a recomendação é criar uma pasta `/backend` e manter o frontend em `/frontend`.
 
-##  Tecnologias Detectadas
+## Tecnologias Detectadas
 
 ### Frontend Stack
 
@@ -33,7 +33,7 @@ Este projeto é uma interface de carteira digital (wallet) construída com React
 - **ESLint**
 - **Vite** (servidor de dev + build)
 
-##  Funcionalidades Implementadas (Frontend)
+## Funcionalidades Implementadas (Frontend)
 
 - Páginas de **login**, **cadastro** e **recuperação de senha**
 - Validação de formulários com **Zod + React Hook Form**
@@ -42,7 +42,7 @@ Este projeto é uma interface de carteira digital (wallet) construída com React
 - Componentes reutilizáveis (inputs, cards, footers, etc.)
 - Configuração de chamadas API via `VITE_API_BASE_URL`
 
-##  Como Rodar (Frontend)
+## Como Rodar (Frontend)
 
 ### Requisitos
 
@@ -77,7 +77,7 @@ Em seguida, abra `http://localhost:5173` no navegador.
 - `npm run preview`: preview da build de produção
 - `npm run lint`: linting do código
 
-##  Estrutura de Pastas (Atual)
+## Estrutura de Pastas (Atual)
 
 ```
 / (root)
@@ -100,11 +100,11 @@ Em seguida, abra `http://localhost:5173` no navegador.
  eslint.config.js
 ```
 
-##  Desenvolvimento (Progressão)
+## Desenvolvimento (Progressão)
 
 Atualmente este repositório não possui commits (histórico Git vazio) e representa o scaffold inicial do frontend com as primeiras páginas e componentes criados.
 
-##  Organização Recomendada (Backend + Frontend)
+## Organização Recomendada (Backend + Frontend)
 
 Para manter separação clara entre frontend e backend, sugerimos a seguinte estrutura:
 
@@ -122,7 +122,7 @@ Para manter separação clara entre frontend e backend, sugerimos a seguinte est
 README.md
 ```
 
-##  Comandos Git para Publicar (GitHub)
+## Comandos Git para Publicar (GitHub)
 
 ```bash
 cd /c/Projects-DIO/dio-wallet-app
@@ -145,7 +145,7 @@ git push -u origin main
 
 > Caso o Git esteja configurado em `master`, use `master` em vez de `main` no `git push`.
 
-##  Próximos Passos Planejados
+## Próximos Passos Planejados
 
 - Adicionar o backend (API / banco de dados)
 - Implementar endpoints de transação, saldo e histórico
@@ -155,4 +155,4 @@ git push -u origin main
 
 ---
 
-Se você quiser, posso ajudar a criar o esqueleto do backend (Node/Express + MongoDB) diretamente neste repositório, ou ajustar a estrutura para suportar o backend e o frontend juntos.
+# Se você quiser, posso ajudar a criar o esqueleto do backend (Node/Express + MongoDB) diretamente neste repositório, ou ajustar a estrutura para suportar o backend e o frontend juntos.

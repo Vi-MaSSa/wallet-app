@@ -32,10 +32,7 @@ export default function Signup() {
   }
 
   return (
-    <AuthLayout
-      title="Crie sua conta"
-      backLink={{ to: ROUTES.signin, label: "Voltar" }}
-    >
+    <AuthLayout title="Crie sua conta" backLink={{ to: ROUTES.signin }}>
       <form
         onSubmit={handleSubmit(handleSubmitForm)}
         className="flex flex-col gap-4 w-full"

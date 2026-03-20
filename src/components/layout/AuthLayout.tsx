@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import ThemeToggle from "../ThemeToggle";
 import Card from "../ui/Card";
 import Logo from "../Logo";
+import { FaArrowLeft } from "react-icons/fa6";
 
 interface AuthLayoutProps {
   title: string;
   children: ReactNode;
   footer?: ReactNode;
-  backLink?: { to: string; label: string };
+  backLink?: { to: string; label?: string };
 }
 
 export default function AuthLayout({
@@ -29,7 +30,8 @@ export default function AuthLayout({
             to={backLink.to}
             className="absolute left-3 top-3 text-2xl cursor-pointer transition text-blue-800 dark:text-white hover:text-blue-600 dark:hover:text-gray-400"
           >
-            ← {backLink.label}
+            <FaArrowLeft />
+            {backLink.label}
           </Link>
         ) : null}
 

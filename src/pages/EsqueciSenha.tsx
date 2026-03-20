@@ -21,10 +21,7 @@ export default function EsqueciSenha() {
   }
 
   return (
-    <AuthLayout
-      title="Recuperar senha"
-      backLink={{ to: ROUTES.signin, label: "Voltar" }}
-    >
+    <AuthLayout title="Recuperar senha" backLink={{ to: ROUTES.signin }}>
       <form
         onSubmit={handleSubmit(handleSubmitForm)}
         className="flex flex-col gap-4 w-full"

@@ -3,7 +3,7 @@ import { join, extname, basename } from "path";
 import { fileURLToPath } from "url";
 
 // Pega o nome do arquivo atual para não renomeá-lo
-const __filename = fileURLToPath(import.meta.url);
+export const __filename = fileURLToPath(import.meta.url);
 const currentScript = basename(__filename);
 
 const renameFiles = (dir) => {

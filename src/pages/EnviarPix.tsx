@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
-
-import ActionItem from "../components/ui/ActionList/ActionItem";
 import SidebarContainer from "../components/SidebarContainer";
 import { PixKeyList } from "../components/PixKeyList";
 import HomeCard from "../components/HomeCard";
 import Card from "../components/ui/Card";
-import { ROUTES } from "../routes";
 
 type PixKeyType = "cpf" | "email" | "phone" | "random";
 

@@ -6,7 +6,7 @@ import ReceiveIcon from "../components/widgets/icons/ReceiveIcon";
 import CopyPasteIcon from "../components/widgets/icons/CopyPasteIcon";
 import { ROUTES } from "../routes";
 
-export default function Home() {
+export default function AreaPix() {
   return (
     <SidebarContainer>
       <HomeCard>

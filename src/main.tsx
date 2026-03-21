@@ -13,6 +13,7 @@ import EsqueciSenha from "./pages/EsqueciSenha";
 import Home from "./pages/Home";
 import AreaPix from "./pages/AreaPix";
 import EnviarPix from "./pages/EnviarPix";
+import ValorPix from "./pages/ValorPix";
 import { ROUTES } from "./routes";
 
 const router = createBrowserRouter([
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path: ROUTES.forgotPassword, element: <EsqueciSenha /> },
       { path: ROUTES.areaPix, element: <AreaPix /> },
       { path: ROUTES.pixEnviar, element: <EnviarPix /> },
+      { path: ROUTES.valorPix, element: <ValorPix /> },
     ],
   },
 ]);

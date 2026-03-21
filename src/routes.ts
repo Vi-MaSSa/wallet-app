@@ -5,6 +5,7 @@ export const ROUTES = {
   forgotPassword: "/esqueci-senha",
   areaPix: "/area-pix",
   pixEnviar: "/pix/enviar",
+  valorPix: "/pix/valor",
 
   // Pix utilities
   pixKeys: "/pix/keys",

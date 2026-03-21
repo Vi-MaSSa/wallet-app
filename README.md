@@ -152,7 +152,3 @@ git push -u origin main
 - Criar dashboard com visualização de transações
 - Adicionar autenticação real (tokens JWT)
 - Configurar CI/CD para lint, build e deploy
-
----
-
-# Se você quiser, posso ajudar a criar o esqueleto do backend (Node/Express + MongoDB) diretamente neste repositório, ou ajustar a estrutura para suportar o backend e o frontend juntos.

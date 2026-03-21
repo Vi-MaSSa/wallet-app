@@ -11,10 +11,10 @@ import MaskedInput from "../components/MaskedInput";
 export default function ValorPix() {
   const {
     control,
-    handleSubmit,
-    formState: { errors },
+    formState: { errors, isValid },
   } = useForm<valorPixData>({
     resolver: zodResolver(valorPixSchema) as Resolver<valorPixData>,
+    mode: "onChange",
   });
 
   return (
@@ -49,6 +49,11 @@ export default function ValorPix() {
                 )}
               />
             </FormField>
+            {isValid && (
+              <button className="mt-4 w-full bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 cursor-pointer transition">
+                Enviar Valor
+              </button>
+            )}
           </Card>
         </div>
       </HomeCard>

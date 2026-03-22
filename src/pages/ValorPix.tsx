@@ -3,8 +3,11 @@ import HomeCard from "../components/HomeCard";
 import FormField from "../components/form/FormField";
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { valorPixSchema, valorPixData } from "../schemas/ValorPixSchema";
-import { Resolver } from "react-hook-form";
+import {
+  valorPixSchema,
+  ValorPixOutput,
+  ValorPixInput,
+} from "../schemas/ValorPixSchema";
 import Card from "../components/ui/Card";
 import MaskedInput from "../components/MaskedInput";
 
@@ -12,8 +15,8 @@ export default function ValorPix() {
   const {
     control,
     formState: { errors, isValid },
-  } = useForm<valorPixData>({
-    resolver: zodResolver(valorPixSchema) as Resolver<valorPixData>,
+  } = useForm<ValorPixInput, unknown, ValorPixOutput>({
+    resolver: zodResolver(valorPixSchema),
     mode: "onChange",
   });
 

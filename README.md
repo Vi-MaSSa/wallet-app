@@ -1,6 +1,6 @@
 ﻿# DIO Wallet App (Frontend)
 
-> **Work in Progress** este repositório contém apenas a parte frontend da aplicação; o backend ainda não está presente.
+> **Work in Progress** este repositório contém apenas a parte frontend da aplicação; o backend está presente em outro arquivo separado.
 
 ## Visão Geral
 

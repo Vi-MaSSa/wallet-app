@@ -102,8 +102,6 @@ Em seguida, abra `http://localhost:5173` no navegador.
 
 ## Desenvolvimento (Progressão)
 
-Atualmente este repositório não possui commits (histórico Git vazio) e representa o scaffold inicial do frontend com as primeiras páginas e componentes criados.
-
 ## Organização Recomendada (Backend + Frontend)
 
 Para manter separação clara entre frontend e backend, sugerimos a seguinte estrutura:

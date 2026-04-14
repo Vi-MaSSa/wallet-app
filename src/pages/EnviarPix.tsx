@@ -3,6 +3,7 @@ import SidebarContainer from "../components/SidebarContainer";
 import { PixKeyList } from "../components/PixKeyList";
 import HomeCard from "../components/HomeCard";
 import Card from "../components/ui/Card";
+import input from "../components/Input";
 
 type PixKeyType = "cpf" | "email" | "phone" | "random";
 

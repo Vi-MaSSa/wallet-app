@@ -5,11 +5,13 @@ type MaskedInputProps = IMaskInputProps<any> & {
   className?: string;
   error?: boolean | FieldError;
   mask?: any;
+  signed?: boolean;
 };
 
 export default function MaskedInput({
   className = "",
   error,
+  signed,
   ...props
 }: MaskedInputProps) {
   return (

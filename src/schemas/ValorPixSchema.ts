@@ -12,4 +12,4 @@ export const valorPixSchema = z.object({
 
 // 👇 TIPOS CORRETOS
 export type ValorPixInput = z.input<typeof valorPixSchema>; // string
-export type ValorPixOutput = z.output<typeof valorPixSchema>; // number
+export type ValorPixOutput = z.output<typeof valorPixSchema>;  //number
